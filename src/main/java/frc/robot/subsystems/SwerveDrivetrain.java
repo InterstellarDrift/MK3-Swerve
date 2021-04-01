@@ -35,22 +35,22 @@ public class SwerveDrivetrain extends SubsystemBase {
 
 
   //put your can Id's here!
-  public static final int frontLeftDriveId = 1; 
-  public static final int frontLeftCANCoderId = 2; 
-  public static final int frontLeftSteerId = 3;
+  public static final int frontLeftDriveId = 26; 
+  public static final int frontLeftCANCoderId = 33; 
+  public static final int frontLeftSteerId = 27;
   //put your can Id's here!
-  public static final int frontRightDriveId = 4; 
-  public static final int frontRightCANCoderId = 5; 
-  public static final int frontRightSteerId = 6; 
+  public static final int frontRightDriveId = 20; 
+  public static final int frontRightCANCoderId = 30; 
+  public static final int frontRightSteerId = 21; 
   //put your can Id's here!
-  public static final int backLeftDriveId = 10; 
-  public static final int backLeftCANCoderId = 11; 
-  public static final int backLeftSteerId = 12;
+  public static final int backLeftDriveId = 24; 
+  public static final int backLeftCANCoderId = 32; 
+  public static final int backLeftSteerId = 25;
   //put your can Id's here!
 
-  public static final int backRightDriveId = 7; 
-  public static final int backRightCANCoderId = 8; 
-  public static final int backRightSteerId = 9;   
+  public static final int backRightDriveId = 22; 
+  public static final int backRightCANCoderId = 31; 
+  public static final int backRightSteerId = 23;   
   public static AHRS gyro = new AHRS(SPI.Port.kMXP);
 
   private SwerveDriveKinematics kinematics = new SwerveDriveKinematics(
